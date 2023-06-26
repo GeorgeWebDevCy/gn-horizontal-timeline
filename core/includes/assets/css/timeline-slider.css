@@ -30,7 +30,7 @@
 
 .timeline-years {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding-top: 10px;
 }
 
@@ -58,4 +58,7 @@
 }
 .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets {
   display: none;
+}
+.timeline-bar .timeline-years .timeline-year.active {
+  color: #ff0000; /* Change this to the desired color for active slide */
 }

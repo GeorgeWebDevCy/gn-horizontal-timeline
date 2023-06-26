@@ -64,16 +64,16 @@ function GNHORIZONT()
 function timeline_slider_enqueue_scripts()
 {
 	// Enqueue SwiperJS library
-	wp_enqueue_script('swiper-js', 'https://unpkg.com/swiper/swiper-bundle.min.js', array('jquery'), '6.8.4', true);
+	wp_enqueue_script('swiper-js', 'https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js', array('jquery'), '9.4.1', false);
 
 	// Enqueue SwiperJS styles
-	wp_enqueue_style('swiper-css', 'https://unpkg.com/swiper/swiper-bundle.min.css', array(), '6.8.4');
+	wp_enqueue_style('swiper-css', 'https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css', array(), '9.4.1');
 
 	// Enqueue custom styles
-	wp_enqueue_style('timeline-slider-css', plugin_dir_url(__FILE__) . 'core/includes/assets/css/timeline-slider.css', array(), '1.0');
+	wp_enqueue_style('timeline-slider-css', plugin_dir_url(__FILE__) . 'core/includes/assets/css/timeline-slider.css', array(), '1.0', false);
 
 	// Enqueue custom script for initializing the slider
-	wp_enqueue_script('timeline-slider-script', plugin_dir_url(__FILE__) . 'core/includes/assets/js/timeline-slider.js', array('swiper-js'), '1.0', true);
+	wp_enqueue_script('timeline-slider-script', plugin_dir_url(__FILE__) . 'core/includes/assets/js/timeline-slider.js', array('swiper-js'), '1.0', false);
 
 	// Pass additional settings to the JavaScript file
 	$settings = array(
@@ -231,10 +231,6 @@ function timeline_slider_shortcode()
 	<?php
 	return ob_get_clean();
 }
-
-add_shortcode('timeline_slider', 'timeline_slider_shortcode');
-
-
 
 add_shortcode('timeline_slider', 'timeline_slider_shortcode');
 GNHORIZONT();
