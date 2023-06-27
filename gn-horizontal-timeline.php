@@ -215,7 +215,7 @@ function timeline_slider_shortcode()
 		</div>
 		<div class="timeline-bar">
 			<ul class="timeline-years">
-				<li class="timeline-year" data-slide="0">1957</li>
+				<li class="timeline-year active" data-slide="0">1957</li>
 				<li class="timeline-year" data-slide="1">1967</li>
 				<li class="timeline-year" data-slide="2">1989</li>
 				<li class="timeline-year" data-slide="3">1996</li>
