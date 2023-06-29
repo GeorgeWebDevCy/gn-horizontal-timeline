@@ -188,8 +188,14 @@ function timeline_slider_shortcode()
 		</div>
 	</div>
 	<div class="swiper-pagination"></div>
-	<div class="swiper-button-next"></div>
-	<div class="swiper-button-prev"></div>
+
+	<div class="swiper-button-next">
+		<img src="<?php echo plugin_dir_url(__FILE__) . 'core/includes/assets/images/right.svg'; ?>">
+	</div>
+
+	<div class="swiper-button-prev">
+		<img src="<?php echo plugin_dir_url(__FILE__) . 'core/includes/assets/images/left.svg'; ?>">
+	</div>
 	</div>
 
 	<div class="timeline">

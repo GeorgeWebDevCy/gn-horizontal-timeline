@@ -46,3 +46,60 @@
 .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets {
   display: none;
 }
+
+.swiper-button-next::after {
+  display: none;
+}
+.swiper-button-prev::after {
+  display: none;
+}
+
+/*** Responsive Styles Large Desktop And Above ***/
+@media all and (min-width: 1405px) {
+  .swiper-button-next {
+    position: absolute;
+    width: 30px !important;
+    height: 30px !important;
+    margin-left: -320px !important;
+    /*background: #063 !important*/
+    top: 200px !important;
+    bottom: 0px !important;
+    left: 50% !important;
+  }
+
+  .swiper-button-prev {
+    position: absolute;
+    width: 30px !important;
+    height: 30px !important;
+    margin-left: -360px !important;
+    /*background: red !important;*/
+    top: 200px !important;
+    bottom: 0px !important;
+    left: 50% !important;
+  }
+}
+
+/*** Responsive Styles Standard Desktop Only ***/
+@media all and (min-width: 1100px) and (max-width: 1405px) {
+  .swiper-button-next {
+    position: absolute;
+    width: 30px !important;
+    height: 30px !important;
+    margin-left: -320px !important;
+    /*background: #063 !important*/
+    top: 200px !important;
+    bottom: 0px !important;
+    left: 50% !important;
+  }
+
+  .swiper-button-prev {
+    position: absolute;
+    width: 30px !important;
+    height: 30px !important;
+    margin-left: -360px !important;
+    /*background: red !important;*/
+    top: 200px !important;
+    bottom: 0px !important;
+    left: 50% !important;
+  }
+}
