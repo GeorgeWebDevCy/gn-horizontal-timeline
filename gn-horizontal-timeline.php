@@ -93,87 +93,95 @@ function timeline_slider_shortcode()
 	<div class="swiper-container">
 		<div class="swiper-wrapper">
 			<div class="swiper-slide timeline-content">
-				<div class="image">
+				<div class="swiper-image">
 					<img src="/wp-content/uploads/2023/06/item1-.svg" alt="Slide Image">
 				</div>
-				<div class="content">
+				<div class="swiper-content">
 					<h2 class="year">1957</h2>
-					<p>Ο Παρνασσός Στροβόλου έχει ήδη σελίδα στο Facebook και Instagram όπου δημοσιοποιούνται
+					<p class="item-text">Ο Παρνασσός Στροβόλου έχει ήδη σελίδα στο Facebook και Instagram όπου
+						δημοσιοποιούνται
 						διαρκώς τα νέα της ομάδας, διάφορες φωτογραφίες από αγώνες, προπονήσεις και εκδηλώσεις.</p>
 				</div>
 			</div>
 			<div class="swiper-slide timeline-content">
-				<div class="image">
+				<div class="swiper-image">
 					<img src="/wp-content/uploads/2023/06/item1-.svg" alt="Slide Image">
 				</div>
-				<div class="content">
+				<div class="swiper-content">
 					<h2 class="year">1967</h2>
-					<p>Ο Παρνασσός Στροβόλου έχει ήδη σελίδα στο Facebook και Instagram όπου δημοσιοποιούνται
+					<p class="item-text">Ο Παρνασσός Στροβόλου έχει ήδη σελίδα στο Facebook και Instagram όπου
+						δημοσιοποιούνται
 						διαρκώς τα νέα της ομάδας, διάφορες φωτογραφίες από αγώνες, προπονήσεις και εκδηλώσεις.</p>
 				</div>
 			</div>
 
 			<div class="swiper-slide timeline-content">
-				<div class="image">
+				<div class="swiper-image">
 					<img src="/wp-content/uploads/2023/06/item1-.svg" alt="Slide Image">
 				</div>
-				<div class="content">
+				<div class="swiper-content">
 					<h2 class="year">1996</h2>
-					<p>Ο Παρνασσός Στροβόλου έχει ήδη σελίδα στο Facebook και Instagram όπου δημοσιοποιούνται
+					<p class="item-text">Ο Παρνασσός Στροβόλου έχει ήδη σελίδα στο Facebook και Instagram όπου
+						δημοσιοποιούνται
 						διαρκώς τα νέα της ομάδας, διάφορες φωτογραφίες από αγώνες, προπονήσεις και εκδηλώσεις.</p>
 				</div>
 			</div>
 
 			<div class="swiper-slide timeline-content">
-				<div class="image">
+				<div class="swiper-image">
 					<img src="/wp-content/uploads/2023/06/item1-.svg" alt="Slide Image">
 				</div>
-				<div class="content">
+				<div class="swiper-content">
 					<h2 class="year">2001</h2>
-					<p>Ο Παρνασσός Στροβόλου έχει ήδη σελίδα στο Facebook και Instagram όπου δημοσιοποιούνται
+					<p class="item-text">Ο Παρνασσός Στροβόλου έχει ήδη σελίδα στο Facebook και Instagram όπου
+						δημοσιοποιούνται
 						διαρκώς τα νέα της ομάδας, διάφορες φωτογραφίες από αγώνες, προπονήσεις και εκδηλώσεις.</p>
 				</div>
 			</div>
 
 			<div class="swiper-slide timeline-content">
-				<div class="image">
+				<div class="swiper-image">
 					<img src="/wp-content/uploads/2023/06/item1-.svg" alt="Slide Image">
 				</div>
-				<div class="content">
+				<div class="swiper-content">
 					<h2 class="year">2014</h2>
-					<p>Ο Παρνασσός Στροβόλου έχει ήδη σελίδα στο Facebook και Instagram όπου δημοσιοποιούνται
+					<p class="item-text">Ο Παρνασσός Στροβόλου έχει ήδη σελίδα στο Facebook και Instagram όπου
+						δημοσιοποιούνται
 						διαρκώς τα νέα της ομάδας, διάφορες φωτογραφίες από αγώνες, προπονήσεις και εκδηλώσεις.</p>
 				</div>
 			</div>
 
 			<div class="swiper-slide timeline-content">
-				<div class="image">
+				<div class="swiper-image">
 					<img src="/wp-content/uploads/2023/06/item1-.svg" alt="Slide Image">
 				</div>
-				<div class="content">
+				<div class="swiper-content">
 					<h2 class="year">2017</h2>
-					<p>Ο Παρνασσός Στροβόλου έχει ήδη σελίδα στο Facebook και Instagram όπου δημοσιοποιούνται
+					<p class="item-text">Ο Παρνασσός Στροβόλου έχει ήδη σελίδα στο Facebook και Instagram όπου
+						δημοσιοποιούνται
 						διαρκώς τα νέα της ομάδας, διάφορες φωτογραφίες από αγώνες, προπονήσεις και εκδηλώσεις.</p>
 				</div>
 			</div>
 
 			<div class="swiper-slide timeline-content">
-				<div class="image">
+				<div class="swiper-image">
 					<img src="/wp-content/uploads/2023/06/item1-.svg" alt="Slide Image">
 				</div>
-				<div class="content">
+				<div class="swiper-content">
 					<h2 class="year">2022</h2>
-					<p>Ο Παρνασσός Στροβόλου έχει ήδη σελίδα στο Facebook και Instagram όπου δημοσιοποιούνται
+					<p class="item-text">Ο Παρνασσός Στροβόλου έχει ήδη σελίδα στο Facebook και Instagram όπου
+						δημοσιοποιούνται
 						διαρκώς τα νέα της ομάδας, διάφορες φωτογραφίες από αγώνες, προπονήσεις και εκδηλώσεις.</p>
 				</div>
 			</div>
 			<div class="swiper-slide timeline-content">
-				<div class="image">
+				<div class="swiper-image">
 					<img src="/wp-content/uploads/2023/06/item1-.svg" alt="Slide Image">
 				</div>
-				<div class="content">
+				<div class="swiper-content">
 					<h2 class="year">2023</h2>
-					<p>Ο Παρνασσός Στροβόλου έχει ήδη σελίδα στο Facebook και Instagram όπου δημοσιοποιούνται
+					<p class="item-text">Ο Παρνασσός Στροβόλου έχει ήδη σελίδα στο Facebook και Instagram όπου
+						δημοσιοποιούνται
 						διαρκώς τα νέα της ομάδας, διάφορες φωτογραφίες από αγώνες, προπονήσεις και εκδηλώσεις.</p>
 				</div>
 			</div>

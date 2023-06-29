@@ -18,6 +18,7 @@
   background-color: #000000;
   color: #000;
 }
+
 .timeline-slide {
   display: flex;
   align-items: center;
@@ -28,51 +29,20 @@
   align-items: center;
 }
 
-.timeline-content .image {
-  margin-right: 20px;
-}
-
-.timeline-content .image img {
+.timeline-content .swiper-image img {
   max-width: 100%;
   height: auto;
 }
-.timeline-content .content {
-  flex: 1;
+
+.timeline-content .swiper-content {
+  flex: auto;
+  max-width: 100%;
+  padding: 0 10px 0 10px;
+}
+
+.item-text {
+  width: 100%;
 }
 .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets {
   display: none;
-}
-
-/*** Responsive Styles Large Desktop And Above ***/
-@media all and (min-width: 1405px) {
-  /* Styles for desktop devices */
-
-  .swiper-button-prev {
-    position: relative !important;
-    left: 800px !important;
-    top: -170px !important;
-  }
-
-  .swiper-button-next {
-    position: relative !important;
-    right: -900px !important;
-    top: -150px !important;
-  }
-}
-
-/*** Responsive Styles Standard Desktop Only ***/
-@media all and (min-width: 1100px) and (max-width: 1405px) {
-  /* Styles for desktop devices */
-
-  .swiper-button-prev {
-    position: relative !important;
-    left: 800px !important;
-    top: -170px !important;
-  }
-
-  .swiper-button-next {
-    position: relative;
-    right: -900px;
-    top: -150px;
-  }
 }
